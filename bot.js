@@ -58,7 +58,7 @@ bot.on('message', (message) => {
 		message.channel.sendMessage('toma clorox :,v');
 	}
 	if (message.content == 'p!ella') {
-		message.channel.sendMessage('no te ama');
+		message.channel.sendMessage('no te ama :,v');
 	}
 	if (message.content == 'p!elfas') {
 		message.channel.sendMessage('no caigas en sus mentiras :,v');
