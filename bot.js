@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 
 bot.on('message', (message) => {
 	if (message.content == 'hola') {
-		message.channel.sendMessage('ola we :v');
+		message.channel.sendMessage('hola :v');
 	}
 	if (message.content == 'p!oye conoces a jose?') {
 		message.channel.sendMessage('cual jose?');
@@ -30,12 +30,6 @@ bot.on('message', (message) => {
 	if (message.content == 'p!Normies') {
 		message.channel.sendMessage('GET OUT OF MY CHART');
 	}
-	if (message.content == 'p!Holkeanos') {
-		message.channel.sendMessage('Homosexuales');
-	}
-	if (message.content == 'HAILGRASA') {
-		message.channel.sendMessage('HAILGRASA :v');
-	}
 	if (message.content == 'p!c mamo') {
 		message.channel.sendMessage('c bastian');
 	}
@@ -51,17 +45,14 @@ bot.on('message', (message) => {
 	if (message.content == 'p!omae wa mou shindeirou') {
 		message.channel.sendMessage('NANI!?!?! O.O');
 	}
-	if (message.content == 'p!soy mujer') {
-		message.channel.sendMessage('hazme un sandwich >:v');
-	}
 	if (message.content == 'p!sad') {
 		message.channel.sendMessage('toma clorox :,v');
 	}
 	if (message.content == 'p!ella') {
 		message.channel.sendMessage('no te ama :,v');
 	}
-	if (message.content == 'p!elfas') {
-		message.channel.sendMessage('no caigas en sus mentiras :,v');
+	if (message.content == 'p!Yo+Ella*La Vida') {
+		message.channel.sendMessage('es igual a que ella no te ama :,v');
 	}
 });
 bot.login('NDM4NDUxMjM2MDMxNjkyODAx.DcEzIQ.FXQokmgNW_NWBpgeFGG9JD0adXM');
